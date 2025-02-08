@@ -43,16 +43,6 @@ body
 {
   font-size: 90px;
 }
-.main__left button
-{
-  padding: 20px 65px;
-  font-size: 25px;
-  background: #333333;
-  border: 1px solid #333333;
-  border-radius: 50px;
-  color: #fff;
-  margin-bottom: 10px;
-}
 .main__left p
 {
   font-size: 25px;
@@ -268,4 +258,30 @@ body
   {
     border-radius: 0 0 50px 50px;
   }
+}
+
+
+.btn-primary:hover
+{
+  background: #33333300;
+  color: #333333;
+  border: 2px solid #333333;
+}
+.btn-primary:active
+{
+  transform: translateY(2px);
+}
+.main__left button
+{
+  cursor: pointer;
+  transition: .3s;
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 20px 65px;
+  font-size: 25px;
+  background: #333333;
+  border: 1px solid #333333;
+  border-radius: 50px;
+  color: #fff;
+  margin-bottom: 10px;
 }
